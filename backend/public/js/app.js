@@ -1,15 +1,6 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
-
-/***/ "./resources/js/app.jsx":
-/*!******************************!*\
-  !*** ./resources/js/app.jsx ***!
-  \******************************/
-/***/ (() => {
-
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\resources\\js\\app.jsx: Support for the experimental syntax 'jsx' isn't currently enabled (16:23):\n\n\u001b[0m \u001b[90m 14 |\u001b[39m     resolve\u001b[33m:\u001b[39m (name) \u001b[33m=>\u001b[39m resolvePageComponent(\u001b[32m`./Pages/${name}.jsx`\u001b[39m\u001b[33m,\u001b[39m \u001b[36mimport\u001b[39m\u001b[33m.\u001b[39mmeta\u001b[33m.\u001b[39mglob(\u001b[32m'./Pages/**/*.jsx'\u001b[39m))\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m     setup({ el\u001b[33m,\u001b[39m \u001b[33mApp\u001b[39m\u001b[33m,\u001b[39m props }) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         \u001b[36mreturn\u001b[39m render(\u001b[33m<\u001b[39m\u001b[33mApp\u001b[39m {\u001b[33m...\u001b[39mprops} \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[33m,\u001b[39m el)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m     }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m\u001b[0m\n\nAdd @babel/preset-react (https://github.com/babel/babel/tree/main/packages/babel-preset-react) to the 'presets' section of your Babel config to enable transformation.\nIf you want to leave it as-is, add @babel/plugin-syntax-jsx (https://github.com/babel/babel/tree/main/packages/babel-plugin-syntax-jsx) to the 'plugins' section to enable parsing.\n    at instantiate (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:72:32)\n    at constructor (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:359:12)\n    at Parser.raise (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:3339:19)\n    at Parser.expectOnePlugin (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:3396:18)\n    at Parser.parseExprAtom (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:13078:18)\n    at Parser.parseExprSubscripts (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:12648:23)\n    at Parser.parseUpdate (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:12627:21)\n    at Parser.parseMaybeUnary (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:12598:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:12392:61)\n    at Parser.parseExprOps (C:\\WebServer\\Site\\localhost\\l8-breeze-react\\backend\\node_modules\\@babel\\parser\\lib\\index.js:12399:23)");
-
-/***/ }),
 
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
@@ -17,7 +8,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
@@ -161,7 +151,6 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.jsx")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
