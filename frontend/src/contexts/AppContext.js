@@ -56,16 +56,17 @@ const AppProvider = (props) => {
         //console.log(response);
         // SIGNUP / REGISTER
         axios
-          .post(hostName + "api/register", {
+          .post(hostName + "register", {
             name: userNameInput,
             email: userEmail,
             password: userPassword,
+           // password_confirmation: userPassword
           })
           .then(
             (response) => {
               //console.log(response);
               // GET USER
-              axios.get(hostName + "api/user").then(
+              axios.get(hostName + "user").then(
                 (response) => {
                   //console.log(response);
                   setUserId(response.data.id);
