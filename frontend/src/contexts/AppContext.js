@@ -60,7 +60,7 @@ const AppProvider = (props) => {
             name: userNameInput,
             email: userEmail,
             password: userPassword,
-           // password_confirmation: userPassword
+            password_confirmation: userPassword
           })
           .then(
             (response) => {
@@ -111,7 +111,7 @@ const AppProvider = (props) => {
         //console.log(response);
         // LOGIN
         axios
-          .post(hostName + "api/login", {
+          .post(hostName + "login", {
             email: userEmail,
             password: userPassword,
           })
@@ -152,7 +152,7 @@ const AppProvider = (props) => {
 
   function logout() {
     axios.defaults.withCredentials = true;
-    axios.get(hostName + "api/logout");
+    axios.get(hostName + "logout");
     setUserId(0);
     setUserName("");
     setUserNameInput("");
